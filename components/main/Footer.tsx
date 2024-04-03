@@ -50,7 +50,7 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">About</div>
                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
                      
-                        <span className="text-[15px] ml-[6px]">Passionate Sophomore Student</span>    
+                        <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
@@ -58,12 +58,14 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">shivendrakeshari11@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
-           
+            <div className="mb-[20px] text-[15px] text-center">
+                &copy; WebChain Dev 2023 Inc. All rights reserved
+            </div>
         </div>
     </div>
   )

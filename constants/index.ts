@@ -83,16 +83,15 @@ export const Skill_data = [
   export const Socials = [
     {
       name: "Discord",
-      src: "/instagram\.svg",
-
-
-      
+      src: "/instagram.svg",
     },
-    
+    {
+      name: "Facebook",
+      src: "/facebook.svg",
+    },
     {
       name: "Instagram",
       src: "/discord.svg",
-      link:"https://www.instagram.com/shivendra.keshari?igsh=MXJmd2d6MHpoMzJ0ZQ=="
     },
   ];
   
@@ -251,4 +250,8 @@ export const Skill_data = [
       height: 60,
     },
   ];
+  
+  
+  
+  
   

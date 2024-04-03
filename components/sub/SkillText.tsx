@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import {motion} from 'framer-motion'
-import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/Utils/motion'
+import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
 
 const SkillText = () => {
@@ -32,4 +32,4 @@ const SkillText = () => {
   )
 }
 
-export default SkillText;
+export default SkillText

@@ -19,13 +19,13 @@ const Navbar = () => {
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Portfolio
+            WebChain Dev
           </span>
         </a>
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#Footer" className="cursor-pointer">
+            <a href="#about-me" className="cursor-pointer">
               About me
             </a>
             <a href="#skills" className="cursor-pointer">
@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        {/* <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5">
           {Socials.map((social) => (
             <Image
               src={social.src}
@@ -45,32 +45,8 @@ const Navbar = () => {
               key={social.name}
               width={24}
               height={24}
-              
             />
           ))}
-        </div> */}
-        <div className="flex flex-row gap-x-4" >
-        <a href="https://discord.com/channels/@me" target="_blank">
-            <Image
-              src="/discord.svg"
-              alt="instagram"
-              width={24}
-              height={24}
-              className="cursor-pointer"
-            />
-          </a>
-          
-          <a href="https://www.instagram.com/shivendra.keshari?igsh=MXJmd2d6MHpoMzJ0ZQ==" target="_blank">
-         
-            <Image
-              src="/instagram.svg"
-              alt="linkedin"
-              width={24}
-              height={24}
-              className="cursor-pointer"
-            />
-          </a>
-          
         </div>
       </div>
     </div>
